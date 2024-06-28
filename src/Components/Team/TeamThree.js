@@ -54,7 +54,7 @@ const TeamThree = () => {
                                                 alt={data.name}
                                                 onClick={(e) => handleImageClick(idx, e.target)}
                                             />
-                                            <div className="backOver">
+                                            <div className="backOver text-center">
                                                 {userName}
                                             </div>
                                         </div>

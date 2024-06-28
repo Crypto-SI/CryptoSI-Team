@@ -1,13 +1,13 @@
 import { v4 as uuidv4 } from 'uuid';
 import img1 from '../../assets/img/team/1.png';
 import img2 from '../../assets/img/team/Rectangle 1.png';
+import img3 from '../../assets/img/team/jingdev.png';
+import img4 from '../../assets/img/team/lucefer.png';
+import img5 from '../../assets/img/team/daniel2.png';
 import img6 from '../../assets/img/team/Rectangle 6.png';
-import img7 from '../../assets/img/team/Rectangle 7.png';
-import img8 from '../../assets/img/team/Rectangle 8.png';
-import img9 from '../../assets/img/team/Rectangle 9.png';
-import img10 from '../../assets/img/team/jingdev.png';
-import img11 from '../../assets/img/team/lucefer.png';
-import img12 from '../../assets/img/team/daniel2.png';
+import img10 from '../../assets/img/team/10.png';
+import img11 from '../../assets/img/team/11.png';
+import img12 from '../../assets/img/team/12.png';
 
 const teamThreeData = [
     {
@@ -28,7 +28,7 @@ const teamThreeData = [
             { name: 'Email', url: 'mailto:cryptosi@protonmail.com', icon: <i class="fa-regular fa-envelope"></i> },
             { name: 'Discord', url: 'https://discord.com/user/Cryptosi.eth', icon: <i class="fa-brands fa-discord"></i> },
             { name: 'Telegram', url: 'https://t.me/Crypto_si', icon: <i class="fa-brands fa-telegram"></i> },
-            { name: 'Website', url: 'Cryptosi.com', icon: <i class="fa-brands fa-internet-explorer"></i> },
+            { name: 'Website', url: 'https://cryptosi.com', icon: <i class="fa-brands fa-internet-explorer"></i> },
             { name: 'Facebook', url: '', icon: <i class="fa-brands fa-facebook-f"></i> },
             { name: 'Youtube', url: 'https://www.youtube.com/channel/UCcOzf3f6ZWVlIu-6qQpjudA', icon: <i class="fa-brands fa-youtube"></i> },
             { name: 'Instagram', url: 'https://www.instagram.com/cryptosi.eth', icon: <i class="fa-brands fa-instagram"></i> },
@@ -37,7 +37,7 @@ const teamThreeData = [
     },
     {
         id: uuidv4(),
-        img: img10,
+        img: img3,
         name: 'Alyosha Agapov',
         designation: 'Senior Full stack Developer',
         language: 'English, Polish',
@@ -50,10 +50,10 @@ const teamThreeData = [
             { name: 'Twitter', url: 'https://twitter.com/blocklimax', icon: <i class="fa-brands fa-x-twitter"></i> },
             { name: 'Github', url: 'https://github.com/climax-solution', icon: <i class="fa-brands fa-github"></i> },
             { name: 'Linkedin', url: '', icon: <i class="fa-brands fa-linkedin-in"></i> },
-            { name: 'Email', url: '', icon: <i class="fa-regular fa-envelope"></i> },
+            { name: 'Email', url: 'mailto:blocklimax@gmail.com', icon: <i class="fa-regular fa-envelope"></i> },
             { name: 'Discord', url: '', icon: <i class="fa-brands fa-discord"></i> },
             { name: 'Telegram', url: '', icon: <i class="fa-brands fa-telegram"></i> },
-            { name: 'Website', url: '', icon: <i class="fa-brands fa-internet-explorer"></i> },
+            { name: 'Website', url: 'https://alyoshaagapov.netlify.app', icon: <i class="fa-brands fa-internet-explorer"></i> },
             { name: 'Facebook', url: '', icon: <i class="fa-brands fa-facebook-f"></i> },
             { name: 'Youtube', url: '', icon: <i class="fa-brands fa-youtube"></i> },
             { name: 'Instagram', url: 'https://www.instagram.com/blocklimax', icon: <i class="fa-brands fa-instagram"></i> },
@@ -62,7 +62,7 @@ const teamThreeData = [
     },
     {
         id: uuidv4(),
-        img: img11,
+        img: img4,
         name: 'Lucefer',
         designation: 'Web Developer',
         language: 'English, Hindi',
@@ -87,7 +87,7 @@ const teamThreeData = [
     },
     {
         id: uuidv4(),
-        img: img12,
+        img: img5,
         name: 'Dew1204',
         designation: 'Developer',
         language: 'English, Malay, Tamil',
@@ -160,76 +160,79 @@ const teamThreeData = [
     },
     {
         id: uuidv4(),
-        img: img7,
-        name: 'Olivia White',
-        designation: 'Mobile Developer',
-        language: 'Swift, Kotlin',
-        experience: '4 years',
-        skillset: 'Mobile Apps',
-        member: '2021',
-        total: '$95,000',
-        bio: 'Olivia has developed several high-performing mobile applications in both Swift and Kotlin. Her projects tend to focus on optimizing user interface and functionality, enhancing the mobile experience for users. Olivia enjoys attending tech meetups and conferences to stay ahead of mobile tech trends.',
+        img: img10,
+        name: 'Echko',
+        designation: 'Project manager',
+        language: 'English and Afrikaans',
+        experience: '1 year',
+        skillset: 'Project management and Collaborator',
+        member: '2024',
+        total: '0',
+        bio: `Hi homies, I'm Echko. I bring communities together and try my best to spark creative thinking in project leaders mind. People who know me, know that I can be trusted and will not sell their information as "Alpha". My experience is predominantly in Solana with a little dabble in different ecosystems such as Base and Cardano. I have experience in designing web2 websites and have good connections for most things related to SEO, Ads, account managing and so so much more. I'm currently building my web3 network and if you have any experience please reach out to me on the Cryptosi DAO discord channel.`,
         icons: [
-            { name: 'Twitter', url: '', icon: <i class="fa-brands fa-x-twitter"></i> },
+            { name: 'Twitter', url: 'https://x.com/Echko420', icon: <i class="fa-brands fa-x-twitter"></i> },
             { name: 'Github', url: '', icon: <i class="fa-brands fa-github"></i> },
             { name: 'Linkedin', url: '', icon: <i class="fa-brands fa-linkedin-in"></i> },
-            { name: 'Email', url: '', icon: <i class="fa-regular fa-envelope"></i> },
-            { name: 'Discord', url: '', icon: <i class="fa-brands fa-discord"></i> },
-            { name: 'Telegram', url: '', icon: <i class="fa-brands fa-telegram"></i> },
+            { name: 'Email', url: 'mailto:contactraidbossmedia@gmail.com', icon: <i class="fa-regular fa-envelope"></i> },
+            { name: 'Discord', url: 'https://discord.com/invite/dWpQeNte', icon: <i class="fa-brands fa-discord"></i> },
+            { name: 'Telegram', url: 'https://t.me/RBMCryptoClash', icon: <i class="fa-brands fa-telegram"></i> },
             { name: 'Website', url: '', icon: <i class="fa-brands fa-internet-explorer"></i> },
             { name: 'Facebook', url: '', icon: <i class="fa-brands fa-facebook-f"></i> },
-            { name: 'Youtube', url: '', icon: <i class="fa-brands fa-youtube"></i> },
+            { name: 'Youtube', url: 'https://www.youtube.com/channel/UCkLAYf9YHKSir1qFRK6ojLA', icon: <i class="fa-brands fa-youtube"></i> },
             { name: 'Instagram', url: '', icon: <i class="fa-brands fa-instagram"></i> },
+            { name: 'Wallet', url: 'https://zapper.xyz/account/0xc5aF9a4ccDd2D1BFF70118736fDaD1DE91B13722', icon: <i class="fa-solid fa-wallet"></i> },
         ],
     },
     {
         id: uuidv4(),
-        img: img8,
-        name: 'Ethan Taylor',
-        designation: 'DevOps Engineer',
-        language: 'Ruby, Go',
-        experience: '6 years',
-        skillset: 'System Automation',
-        member: '2017',
-        total: '$105,000',
-        bio: "Ethan's role as a DevOps Engineer involves optimizing our development pipeline using Ruby and Go. His efforts have significantly reduced deployment times and improved our infrastructure's resilience. Ethan is an advocate for open-source software and contributes regularly to various projects.",
+        img: img11,
+        name: 'Omidez Timothy',
+        designation: 'Designer',
+        language: 'English',
+        experience: '5 years',
+        skillset: 'Gfx, web design, digital marketing',
+        member: '2024',
+        total: '0',
+        bio: "Omidez is an enthusiastic designer who have experience both in creativity and bringing clients ideas to reality. His efforts have contributed to different organics in boosting their online presence with captivating designs and ideas. I love working with my whole ability and ready to be corrected.",
         icons: [
             { name: 'Twitter', url: '', icon: <i class="fa-brands fa-x-twitter"></i> },
             { name: 'Github', url: '', icon: <i class="fa-brands fa-github"></i> },
-            { name: 'Linkedin', url: '', icon: <i class="fa-brands fa-linkedin-in"></i> },
-            { name: 'Email', url: '', icon: <i class="fa-regular fa-envelope"></i> },
-            { name: 'Discord', url: '', icon: <i class="fa-brands fa-discord"></i> },
+            { name: 'Linkedin', url: 'https://www.linkedin.com/in/oloruntoba-omiwole-8a913b210?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app', icon: <i class="fa-brands fa-linkedin-in"></i> },
+            { name: 'Email', url: 'mailto:omidot231@gmail.com', icon: <i class="fa-regular fa-envelope"></i> },
+            { name: 'Discord', url: 'https://discord.com/user/benedict_42627', icon: <i class="fa-brands fa-discord"></i> },
             { name: 'Telegram', url: '', icon: <i class="fa-brands fa-telegram"></i> },
             { name: 'Website', url: '', icon: <i class="fa-brands fa-internet-explorer"></i> },
-            { name: 'Facebook', url: '', icon: <i class="fa-brands fa-facebook-f"></i> },
+            { name: 'Facebook', url: 'https://www.facebook.com/profile.php?id=100075188126702', icon: <i class="fa-brands fa-facebook-f"></i> },
             { name: 'Youtube', url: '', icon: <i class="fa-brands fa-youtube"></i> },
             { name: 'Instagram', url: '', icon: <i class="fa-brands fa-instagram"></i> },
+            { name: 'Wallet', url: 'https://zapper.xyz/account/0xcbbbf2bde18ef0992185a1d8076bbed64cbfb885', icon: <i class="fa-solid fa-wallet"></i> },
         ],
     },
     {
         id: uuidv4(),
-        img: img9,
-        name: 'Sophia Wilson',
-        designation: 'Full Stack Developer',
-        language: 'JavaScript, Python',
-        experience: '3 years',
-        skillset: 'Full Stack Dev',
-        member: '2022',
-        total: '$85,000',
-        bio: "Sophia is one of our dynamic full stack developers, fluent in JavaScript and Python. She adeptly manages both front-end and back-end responsibilities, ensuring seamless integration across our applications. Sophia enjoys participating in hackathons and often mentors junior developers in coding bootcamps.",
+        img: img12,
+        name: 'Nelson Joseph Agada',
+        designation: 'Writer , Community manager',
+        language: 'English',
+        experience: 'community management and research writing',
+        skillset: 'Research Skills, writing skills, Attention to detail, Adaptability.',
+        member: '2024',
+        total: '0',
+        bio: "Experienced Research writer specialized in cryptocurrency and Blockchain technology, Producing well-researched, engaging content on digital currencies.",
         icons: [
-            { name: 'Twitter', url: '', icon: <i class="fa-brands fa-x-twitter"></i> },
-            { name: 'Github', url: '', icon: <i class="fa-brands fa-github"></i> },
-            { name: 'Linkedin', url: '', icon: <i class="fa-brands fa-linkedin-in"></i> },
-            { name: 'Email', url: '', icon: <i class="fa-regular fa-envelope"></i> },
-            { name: 'Discord', url: '', icon: <i class="fa-brands fa-discord"></i> },
-            { name: 'Telegram', url: '', icon: <i class="fa-brands fa-telegram"></i> },
+            { name: 'Twitter', url: 'https://x.com/ifennanelson22?t=dtgova2iMdBTFs4TGjf1Mw&s=09', icon: <i class="fa-brands fa-x-twitter"></i> },
+            { name: 'Github', url: 'https://github.com/Nelsonifenna', icon: <i class="fa-brands fa-github"></i> },
+            { name: 'Linkedin', url: 'https://www.linkedin.com/in/nelson-joseph-87883622a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app', icon: <i class="fa-brands fa-linkedin-in"></i> },
+            { name: 'Email', url: 'mailto:nelsonagada878@gmail.com', icon: <i class="fa-regular fa-envelope"></i> },
+            { name: 'Discord', url: 'https://discord.com/user/NelsonJoseph#8780', icon: <i class="fa-brands fa-discord"></i> },
+            { name: 'Telegram', url: 'https://t.me/NelsonIfee', icon: <i class="fa-brands fa-telegram"></i> },
             { name: 'Website', url: '', icon: <i class="fa-brands fa-internet-explorer"></i> },
             { name: 'Facebook', url: '', icon: <i class="fa-brands fa-facebook-f"></i> },
-            { name: 'Youtube', url: '', icon: <i class="fa-brands fa-youtube"></i> },
-            { name: 'Instagram', url: '', icon: <i class="fa-brands fa-instagram"></i> },
+            { name: 'Youtube', url: 'https://youtube.com/@nelsonife?si=wSeksRDsC-labN1B', icon: <i class="fa-brands fa-youtube"></i> },
+            { name: 'Instagram', url: 'https://www.instagram.com/nelsonifee?igsh=enEzenpvdHdybDQ4', icon: <i class="fa-brands fa-instagram"></i> },
+            { name: 'Wallet', url: 'https://zapper.xyz/account/0xa40C859A027ec55DcF04889b0ca85A6DCD1A9AcE', icon: <i class="fa-solid fa-wallet"></i> },
         ],
-    },
+    }
 ];
 
 const mediaIcons = [
